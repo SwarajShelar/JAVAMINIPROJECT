@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+footer button {
+    margin-top: 1em;
+    padding: 0.7em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: #0056b3;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+}
+
+.summary, .add-plantation, .plantation-list {
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 1em;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.summary h2, .add-plantation h2, .plantation-list h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.summary p, .add-plantation p {
+    font-size: 1.1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="date"] {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+button {
+    margin-top: 1em;
+    padding: 0.7em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.plantation-list ul {
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.plantation-list li {
+    background-color: #e9f7ef;
+    border: 1px solid #ccc;
+    padding: 0.7em;
+    margin-top: 0.5em;
+    border-radius: 4px;
+}
+
+.footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}

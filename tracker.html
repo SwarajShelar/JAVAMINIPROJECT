@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Plantation Tracker</title>
+    <link rel="stylesheet" href="css/tracker.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Tree Plantation Tracker</h1>
+        <p>Track your journey of tree plantation and contribute to a greener earth!</p>
+    </header>
+    
+    <section class="summary">
+        <h2>Summary</h2>
+        <p>Total Trees Planted: <span id="total-trees">0</span></p>
+        <p>Goal: Plant 1000 trees!</p>
+    </section>
+
+    <section class="add-plantation">
+        <h2>Add a New Plantation</h2>
+        <form id="plantation-form">
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+            
+            <label for="species">Tree Species:</label>
+            <input type="text" id="species" name="species" required>
+            
+            <label for="date">Date Planted:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <button type="submit">Add Plantation</button>
+        </form>
+    </section>
+
+    <section class="plantation-list">
+        <h2>Recorded Plantations</h2>
+        <ul id="plantation-records">
+            <!-- List of plantations will appear here -->
+        </ul>
+    </section>
+
+    <!-- Home Button -->
+    <footer class="footer">
+        <p>&copy; 2024 Tree Plantation Tracker</p>
+        <button onclick="window.location.href='homepage.html'">Back to Home</button>
+    </footer>
+
+    <script src="js/tracker.js"></script>
+</body>
+</html>

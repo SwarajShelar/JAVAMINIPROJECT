@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Plantation Initiative</title>
+    <link rel="stylesheet" href="css/homepage.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Plant Trees Save Lives</h1> <!-- Replace with an image if needed -->
+        </div>
+        <div class="nav-links">
+            <a href="#login" class="nav-link">Login</a>
+            <a href="#signup" class="nav-link">Sign Up</a>
+        </div>
+    </nav>
+
+    <!-- Banner Slideshow Section -->
+    <div class="slideshow-container" id="banner-slideshow">
+        <div class="slide fade">
+            <img src="images/img1.jpg" class="slide-image">
+        </div>
+        <div class="slide fade">
+            <img src="images/img2.jpg" class="slide-image">
+        </div>
+        <div class="slide fade">
+            <img src="images/img3.jpg" class="slide-image">
+        </div>
+        <div class="slide fade">
+            <img src="images/img1.jpg" class="slide-image">
+        </div>
+        <div class="banner-text">"Planting Trees, Growing Hope"</div>
+
+        <!-- Next and Previous Buttons for Banner Slideshow -->
+        <a class="prev" onclick="changeSlide(-1, 'banner')">&#10094;</a>
+        <a class="next" onclick="changeSlide(1, 'banner')">&#10095;</a>
+    </div>
+
+    <!-- New Content Sections -->
+    <div class="content-section">
+        <!-- Left Section with Slideshow -->
+        <div class="slideshow-container" id="info-slideshow">
+            <div class="slide fade">
+                <img src="images/img1.jpg" class="slide-image">
+            </div>
+            <div class="slide fade">
+                <img src="images/img2.jpg" class="slide-image">
+            </div>
+            <div class="slide fade">
+                <img src="images/img3.jpg" class="slide-image">
+            </div>
+            <div class="slide fade">
+                <img src="images/img2.jpg" class="slide-image">
+            </div>
+
+            <!-- Next and Previous Buttons for Info Slideshow -->
+            <a class="prev" onclick="changeSlide(-1, 'info')">&#10094;</a>
+            <a class="next" onclick="changeSlide(1, 'info')">&#10095;</a>
+        </div>
+        
+        <!-- Right Section with Text -->
+        <div class="text-section">
+            <!-- Why Plant Trees Card -->
+            <div class="text-card">
+                <h2>Why Plant Trees?</h2>
+                <p>Trees are the lungs of our planet. They help combat climate change, support diverse ecosystems, and provide clean air for everyone. By planting trees, you're making a significant difference. Join us to create a greener future!</p>
+            </div>
+
+            <div class="text-card">
+                <h2>Community Impact</h2>
+                <p>Every tree planted adds up to a healthier, more vibrant community. From enhancing biodiversity to cooling urban areas, your contributions have a lasting impact. Explore stories of how tree planting has transformed lives and landscapes.</p>
+            </div>
+
+            <div class="text-card">
+                <h2>How it Works?</h2>
+                <p>Planting trees with us is simple. Just register, start planting, and log your efforts in our Tree Plantation Tracker. Watch your impact grow and contribute to a sustainable future!</p>
+            </div>
+            <!-- Start Tracking Your Plantations Card -->
+            <div class="text-card">
+                <h2>Start Tracking Your Plantations</h2>
+                <p>Use our Tree Plantation Tracker to log and monitor your contributions. See how many trees you've planted and track your progress toward a sustainable future.</p>
+                <a href="tracker.html" class="tracker-button">Go to Tracker</a>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
